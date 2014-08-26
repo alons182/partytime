@@ -1,0 +1,449 @@
+@import "nib"
+@import "normalize.styl"
+@import "icons.styl"
+
+@font-face {
+	font-family: 'museo_sans500';
+	src: url('../fonts/museosans_500-webfont.eot');
+	src: url('../fonts/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/museosans_500-webfont.woff') format('woff'),
+		 url('../fonts/museosans_500-webfont.ttf') format('truetype'),
+		 url('../fonts/museosans_500-webfont.svg#museo_sans500') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'museo_sans900';
+	src: url('../fonts/museosans_900-webfont.eot');
+	src: url('../fonts/museosans_900-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/museosans_900-webfont.woff') format('woff'),
+		 url('../fonts/museosans_900-webfont.ttf') format('truetype'),
+		 url('../fonts/museosans_900-webfont.svg#museo_sans900') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'museo_sans300';
+	src: url('../fonts/museosans-300-webfont.eot');
+	src: url('../fonts/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/museosans-300-webfont.woff') format('woff'),
+		 url('../fonts/museosans-300-webfont.ttf') format('truetype'),
+		 url('../fonts/museosans-300-webfont.svg#museo_sans300') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+fusia = #ee2b9c
+azul = #19add6
+amarillo = #ffba00 
+cafe = #5c2a0f
+verde = #b1d13a 
+
+body
+	font-family 'museo_sans500', serif
+	font-size 16px
+	line-height normal
+	line-height 25px
+	
+	background url('../img/circulos2.png'), url('../img/bg.jpg')  center top repeat
+	//background-color #00a6b9
+
+ul 
+	margin 0
+	padding 0
+	list-style none
+
+header
+	position relative
+	clearfix()
+	
+
+figure
+	margin 0
+	padding 0
+h1
+	font-family 'Chewy', cursive
+	color fusia
+	font-weight normal
+h2
+	font-family 'Chewy', cursive
+	font-weight normal		
+
+footer
+	
+	height 200px
+	position relative
+	margin-top 50px
+	padding
+	clearfix() 
+
+	h3 
+		color #FFF
+		font-size 1em
+		font-family 'museo_sans900'
+		
+
+	&:after
+		content ""
+		position absolute
+		display block
+		width 100%
+		height 5px
+		background url('../img/bottom-wave.png') repeat-x
+		z-index 2
+		top 0px
+
+
+.fusia
+	background fusia
+.azul 
+	background azul
+.amarillo 
+	background amarillo
+.cafe 
+	background cafe
+
+.logo
+	display block
+	width 150px
+	margin 0 auto
+	
+	img 
+		width 100%
+.redes
+	text-align center
+	margin-bottom 10px
+   
+	a 
+		display inline-block
+		text-decoration none
+		color #fff
+		background fusia
+		
+		padding .5em
+		&:hover
+			background azul
+   
+
+#btn_mobile
+	float left
+	
+	.icon-menu 
+		font-size 2em
+		color #FFF
+		padding .5em
+.search
+	float left
+	width 65%
+	z-index 20
+
+
+.finder	
+.inner-search
+	position relative
+
+	.icon-search
+		position absolute
+		left 3px
+		top 3px
+		font-size 1.2em
+		padding .2em
+		color #c2c2c2
+
+	input 
+		width 100%
+		background #fff
+		border none
+		border-radius 5px
+		border 1px solid #c2c2c2
+		color azul
+		font-size 14px
+		padding 8px 8px 8px 30px
+
+.globos
+	width 109px
+	height 155px
+	display none
+	overflow hidden
+	background url('../img/globos.png') no-repeat 
+	animation floating2 5s infinite alternate
+	position absolute
+	top 32%
+	left 17%
+	
+.cloud
+	width 287px
+	height 193px
+	display none
+	overflow hidden
+	background url('../img/clouds-blue-sprite.png') no-repeat -36px -290px
+	animation floating2 10s infinite alternate
+	position absolute
+	top 3%
+	left 0%
+	
+	.info
+		display block
+		position relative
+		top 70px
+		left 0px
+		font-size 1.2em
+		font-family: 'Chewy', cursive;
+		color fusia
+		text-align center
+	
+
+.menu
+	display none
+	margin-top 50px   
+	ul 
+		clearfix()
+	li 
+		display block
+
+		.nav-header
+		a 
+			display block
+			text-decoration none 
+			padding 1em
+			color #FFF 
+			font-family 'Chewy', cursive
+			font-size 16px
+			text-transform uppercase
+			text-align center
+			letter-spacing 2px
+			text-shadow 1px 1px 1px rgba(0,0,0,.5)
+			transition all .2s ease
+			cursor pointer
+			line-height normal
+
+	
+		.nav-child
+		.submenu
+			//display none
+			//position absolute
+			width 100%
+			left 0
+			transition all .3s ease
+		   
+	
+	
+
+.slider
+	display none
+	margin-top 30px
+	min-height 300px 
+	border 5px solid azul
+	border-radius 5px
+	img
+		width 100%
+
+
+
+.wrapper
+	width auto
+	margin 0 auto
+	background #FFF
+	box-shadow 0px 0px 3px rgba(0,0,0,.5)
+	border-radius 5px 5px 0 0
+.main 
+	margin-top 30px
+
+.categories-list
+	&>div
+		display block
+
+		&:nth-child(3n+0)
+			a
+				background-color fusia
+				border-color fusia
+		&:nth-child(4n+0)
+			a
+				background-color amarillo
+				border-color amarillo
+.categories
+	padding 0 1em
+	text-align center
+	margin-top 20px
+	padding-top 10px
+	
+
+		
+	.category-desc
+		display none
+
+.top-sellers
+	padding 0 1em
+	position relative
+
+	.slide
+	li 
+		//width 7em
+		margin 0 1em
+
+
+	img 
+		width 100%
+		height auto
+		border 5px solid azul
+		border-radius 5px
+.actions
+	position absolute
+	text-decoration none
+	color #fff
+	top 60%
+	font-size 1em
+	background fusia
+	padding .5em
+	box-shadow 1px 1px 1px rgba(0,0,0,.8)
+
+	&:hover
+		background azul
+
+#prev
+	left 0
+#next
+	right 0
+	
+.span3		
+.category
+	display block
+	background-color azul
+	margin-bottom .5em
+	border 5px solid azul
+	text-decoration none
+	transition all .5s ease
+	box-shadow 1px 1px 1px rgba(0,0,0,.8)
+	border-radius 5px 5px 0 0
+	font-family 'Chewy', cursive
+	
+	&:nth-child(3n+0)
+		background-color fusia
+		border-color fusia
+	&:nth-child(4n+0)
+		background-color amarillo
+		border-color amarillo
+	
+	
+	&:hover
+		background-color cafe
+		border-color cafe
+		
+	.page-header
+	span
+		display block
+		color #FFF 
+		text-align center
+		
+
+	img 
+		width 100%
+		height auto
+.span3
+	.item 
+		color #FFF	
+		h2 
+			font-weight normal
+			margin-top 0
+			margin-bottom 5px
+		a 
+			text-decoration none 
+			color #FFF
+		p 
+			font-family 'museo_sans500'
+			font-size 13px
+			margin-top 0
+			margin-bottom 5px
+			height 25px
+			overflow hidden
+	.pull-left
+		img 
+			border none
+			padding 0
+			border-radius 0
+	.readmore
+		background verde
+		text-align center
+
+	&:nth-child(3n+0)
+		background-color fusia
+		border-color fusia
+	&:nth-child(4n+0)
+		background-color amarillo
+		border-color amarillo
+
+
+.menu-footer
+	
+	li 
+		margin .5em
+		a 
+			color #FFF 
+			text-decoration none
+			padding .5em
+			font-size 14px
+			&:hover
+				color cafe
+.inner-footer
+	background azul
+	padding 8px 15px
+	clearfix()
+	line-height normal
+
+	.redes
+		float none
+		position relative
+		text-align left
+		top 0
+	
+.column
+	display inline-block
+	margin-right 3em
+.ubicacion
+	display none
+	float right 
+	color #FFF
+	margin-right 0
+	p 
+		font-size 14px
+.map 
+	width 180px
+	float left
+	margin-right 20px
+	margin-top 5px 
+	
+	img
+		width 100%
+		border 2px solid #FFF
+
+.copyright
+	margin 5px 0 0 0
+	font-size 12px
+	text-align center
+
+.b2jcontainer
+	background none !important
+	h2 
+		background verde
+.btn-success
+	background azul !important
+.item-image
+	img 
+		border 1px solid #EFEFF0
+		padding .2em
+		box-sizing border-box
+		border-radius 3px
+.blog	
+.item-page
+	margin-top 60px
+
+.item-page
+	h2
+		color fusia
+@import "responsive.styl"	
