@@ -57,6 +57,9 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                     </span>
                 </span>
                 <div id="btn_mobile"><span class="icon-menu"></span></div>
+                <div class="cart">
+                   <jdoc:include type="modules" name="cart" style="none" />
+                </div>
                 <div class="search">
                    <jdoc:include type="modules" name="search" style="none" />
                 </div>

@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"item",
+				"itemRatingBlock"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"cn",
+				"content"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
 				"ca",
 				"categories"
 			],
@@ -20,36 +84,8 @@
 				"fusia"
 			],
 			[
-				"bor",
-				"border-bottom"
-			],
-			[
 				"slid",
 				"slideDown"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"tex",
-				"text-decoration"
-			],
-			[
-				"ver",
-				"vertical-align"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"pa",
-				"padding-left"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"rg",
@@ -74,10 +110,6 @@
 			[
 				"im",
 				"important"
-			],
-			[
-				"fo",
-				"font-weight"
 			],
 			[
 				"i",
@@ -122,10 +154,6 @@
 			[
 				"nar",
 				"naranja"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"pro",
@@ -432,10 +460,6 @@
 				"product-title-display"
 			],
 			[
-				"ve",
-				"vertical-align"
-			],
-			[
 				"ic",
 				"icon-users"
 			],
@@ -490,81 +514,11 @@
 			[
 				"prev",
 				"preventDefault"
-			],
-			[
-				"get",
-				"getjson	$.getjson()"
-			],
-			[
-				"if",
-				"ife	if … else"
-			],
-			[
-				"Roue",
-				"Route-get	Route-get"
-			],
-			[
-				"View",
-				"View-make	View-make"
-			],
-			[
-				"COo",
-				"Cookie-forever	Cookie-forever"
-			],
-			[
-				"Co",
-				"Cookie-make	Cookie-make"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "templates/partytime/index.php",
-			"settings":
-			{
-				"buffer_size": 5120,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "@import \"nib\"\n@import \"normalize.styl\"\n@import \"icons.styl\"\n\n@font-face {\n	font-family: 'museo_sans500';\n	src: url('../fonts/museosans_500-webfont.eot');\n	src: url('../fonts/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),\n		 url('../fonts/museosans_500-webfont.woff') format('woff'),\n		 url('../fonts/museosans_500-webfont.ttf') format('truetype'),\n		 url('../fonts/museosans_500-webfont.svg#museo_sans500') format('svg');\n	font-weight: normal;\n	font-style: normal;\n\n}\n\n@font-face {\n	font-family: 'museo_sans900';\n	src: url('../fonts/museosans_900-webfont.eot');\n	src: url('../fonts/museosans_900-webfont.eot?#iefix') format('embedded-opentype'),\n		 url('../fonts/museosans_900-webfont.woff') format('woff'),\n		 url('../fonts/museosans_900-webfont.ttf') format('truetype'),\n		 url('../fonts/museosans_900-webfont.svg#museo_sans900') format('svg');\n	font-weight: normal;\n	font-style: normal;\n\n}\n\n\n@font-face {\n	font-family: 'museo_sans300';\n	src: url('../fonts/museosans-300-webfont.eot');\n	src: url('../fonts/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),\n		 url('../fonts/museosans-300-webfont.woff') format('woff'),\n		 url('../fonts/museosans-300-webfont.ttf') format('truetype'),\n		 url('../fonts/museosans-300-webfont.svg#museo_sans300') format('svg');\n	font-weight: normal;\n	font-style: normal;\n\n}\n\nfusia = #ee2b9c\nazul = #19add6\namarillo = #ffba00 \ncafe = #5c2a0f\nverde = #b1d13a \n\nbody\n	font-family 'museo_sans500', serif\n	font-size 16px\n	line-height normal\n	\n	background url('../img/circulos2.png'), url('../img/bg.jpg')  center top repeat\n	//background-color #00a6b9\n\nul \n	margin 0\n	padding 0\n	list-style none\n\nheader\n	position relative\n	clearfix()\n	\n\nfigure\n	margin 0\n	padding 0\nh1\n	font-family 'Chewy', cursive\n	color fusia\n	font-weight normal\n		\n\nfooter\n	\n	height 200px\n	position relative\n	margin-top 50px\n	padding\n	clearfix() \n\n	h3 \n		color #FFF\n		font-size 1em\n		font-family 'museo_sans900'\n		\n\n	&:after\n		content \"\"\n		position absolute\n		display block\n		width 100%\n		height 5px\n		background url('../img/bottom-wave.png') repeat-x\n		z-index 2\n		top 0px\n\n\n.fusia\n	background fusia\n.azul \n	background azul\n.amarillo \n	background amarillo\n.cafe \n	background cafe\n\n.logo\n	display block\n	width 150px\n	margin 0 auto\n	\n	img \n		width 100%\n.redes\n	text-align center\n	margin-bottom 10px\n   \n	a \n		display inline-block\n		text-decoration none\n		color #fff\n		background fusia\n		\n		padding .5em\n		&:hover\n			background azul\n   \n\n#btn_mobile\n	float left\n	\n	.icon-menu \n		font-size 2em\n		color #FFF\n		padding .5em\n.search\n	float left\n	width 65%\n	z-index 20\n\n\n.finder	\n.inner-search\n	position relative\n\n	.icon-search\n		position absolute\n		left 3px\n		top 3px\n		font-size 1.2em\n		padding .2em\n		color #c2c2c2\n\n	input \n		width 100%\n		background #fff\n		border none\n		border-radius 5px\n		border 1px solid #c2c2c2\n		color azul\n		font-size 14px\n		padding 8px 8px 8px 30px\n\n.globos\n	width 109px\n	height 155px\n	display none\n	overflow hidden\n	background url('../img/globos.png') no-repeat \n	animation floating2 5s infinite alternate\n	position absolute\n	top 32%\n	left 17%\n	\n.cloud\n	width 287px\n	height 193px\n	display none\n	overflow hidden\n	background url('../img/clouds-blue-sprite.png') no-repeat -36px -290px\n	animation floating2 10s infinite alternate\n	position absolute\n	top 3%\n	left 0%\n	\n	.info\n		display block\n		position relative\n		top 70px\n		left 0px\n		font-size 1.2em\n		font-family: 'Chewy', cursive;\n		color fusia\n		text-align center\n	\n\n.menu\n	display none\n	margin-top 50px   \n	ul \n		clearfix()\n	li \n		display block\n\n		.nav-header\n		a \n			display block\n			text-decoration none \n			padding 1em\n			color #FFF \n			font-family 'Chewy', cursive\n			font-size 16px\n			text-transform uppercase\n			text-align center\n			letter-spacing 2px\n			text-shadow 1px 1px 1px rgba(0,0,0,.5)\n			transition all .2s ease\n			cursor pointer\n\n	\n		.nav-child\n		.submenu\n			//display none\n			//position absolute\n			width 100%\n			left 0\n			transition all .3s ease\n		   \n	\n	\n\n.slider\n	display none\n	margin-top 30px\n	min-height 300px \n	border 5px solid azul\n	border-radius 5px\n	img\n		width 100%\n\n\n\n.wrapper\n	width auto\n	margin 0 auto\n	background #FFF\n	box-shadow 0px 0px 3px rgba(0,0,0,.5)\n	border-radius 5px 5px 0 0\n.main \n	margin-top 30px\n.categories\n	padding 0 1em\n	text-align center\n	margin-top 20px\n	padding-top 10px\n	&>div\n		display block\n\n		&:nth-child(3n+0)\n			a\n				background-color fusia\n				border-color fusia\n		&:nth-child(4n+0)\n			a\n				background-color amarillo\n				border-color amarillo\n	.category-desc\n		display none\n\n.top-sellers\n	padding 0 1em\n	position relative\n\n	.slide \n		//width 7em\n		margin 0 1em\n\n\n	img \n		width 100%\n		height auto\n		border 5px solid azul\n		border-radius 5px\n.actions\n	position absolute\n	text-decoration none\n	color #fff\n	top 60%\n	font-size 1em\n	background fusia\n	padding .5em\n	box-shadow 1px 1px 1px rgba(0,0,0,.8)\n\n	&:hover\n		background azul\n\n#prev\n	left 0\n#next\n	right 0\n	\n		\n.category\n	display block\n	background-color azul\n	margin-bottom .5em\n	border 5px solid azul\n	text-decoration none\n	transition all .5s ease\n	box-shadow 1px 1px 1px rgba(0,0,0,.8)\n	border-radius 5px 5px 0 0\n	font-family 'Chewy', cursive\n	\n	&:nth-child(3n+0)\n		background-color fusia\n		border-color fusia\n	&:nth-child(4n+0)\n		background-color amarillo\n		border-color amarillo\n	\n	\n	&:hover\n		background-color cafe\n		border-color cafe\n		\n\n	span\n		display block\n		color #FFF \n		text-align center\n		\n\n	img \n		width 100%\n		height auto\n\n\n.menu-footer\n	\n	li \n		margin .5em\n		a \n			color #FFF \n			text-decoration none\n			padding .5em\n			font-size 14px\n			&:hover\n				color cafe\n.inner-footer\n	background azul\n	padding 15px\n	clearfix()\n\n	.redes\n		float none\n		position relative\n		text-align left\n		top 0\n	\n.column\n	display inline-block\n	margin-right 3em\n.ubicacion\n	display none\n	float right \n	color #FFF\n	margin-right 0\n	p \n		font-size 14px\n.map \n	width 180px\n	float left\n	margin-right 20px\n	margin-top 15px \n	\n	img\n		width 100%\n		border 2px solid #FFF\n\n.copyright\n	margin 10px 0 0 0\n	font-size 12px\n	text-align center\n\n.b2jcontainer\n	background none !important\n	h2 \n		background verde\n.btn-success\n	background azul !important\n.item-image\n	img \n		\n\n@import \"responsive.styl\"	\n",
-			"file": "templates/partytime/stylus/main.styl",
-			"file_size": 6160,
-			"file_write_time": 130534748860604690,
-			"settings":
-			{
-				"buffer_size": 6180,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"es\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Party Time</title>\n        <meta name=\"description\" content=\"\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>\n        <link rel=\"stylesheet\" href=\"css/animate.css\">\n        <link rel=\"stylesheet\" href=\"css/main.css\">\n\n        <script src=\"js/vendor/modernizr-2.6.2-respond-1.1.0.min.js\"></script>\n    </head>\n    <body>\n        \n         <header class=\"header\">\n                <a href=\"#\" class=\"logo\"><img src=\"img/logo.png\" alt=\"Party Time\" /></a>\n                <div class=\"redes\">\n                    <a href=\"#\" class=\"facebook icon icon-facebook\"></a>\n                    <a href=\"#\" class=\"twitter icon icon-twitter\"></a>\n                    <a href=\"#\" class=\"google icon icon-googleplus\"></a>\n                </div>\n                <span class=\"globos\"></span>\n                <span class=\"cloud\">\n                    <span class=\"info\">\n                        info@partytime.com <br />\n                        2666-6655\n                    </span>\n                </span>\n                <div id=\"btn_mobile\"><span class=\"icon-menu\"></span></div>\n                <div class=\"search\">\n                    <div class=\"inner-search\">\n                        <span class=\"icon-search\"></span>\n                        <input type=\"text\" />\n                    </div>\n                    \n                </div>\n                <nav class=\"menu\">\n                    <ul>\n                        <li class=\"parent  fusia \"> <a href=\"#\">Cumpleaños</a>\n                            <ul class=\"submenu fusia\">\n                                <li> <a href=\"#\">Niños</a></li>\n                                <li> <a href=\"#\">Niñas</a></li>\n                                <li> <a href=\"#\">Adultos</a></li>\n                            </ul>\n                        </li>\n                       <li class=\"parent azul\"> <a href=\"#\">Disfraces</a>\n                            <ul class=\"submenu azul\">\n                                <li> <a href=\"#\">Disfraces Niños</a></li>\n                                <li> <a href=\"#\">Disfraces Niñas</a></li>\n                            </ul>\n                        </li>\n                        <li class=\"parent amarillo\"> <a href=\"#\">Ideas</a>\n                            <ul class=\"submenu amarillo\">\n                                <li> <a href=\"#\">Ideas Niños</a></li>\n                                <li> <a href=\"#\">Ideas Niñas</a></li>\n                            </ul>\n                        </li>\n                        <li class=\"parent cafe\"> <a href=\"#\">Otros</a>\n                            <ul class=\"submenu cafe\">\n                                <li> <a href=\"#\">Otros Niños</a></li>\n                                <li> <a href=\"#\">Otros Niñas</a></li>\n                            </ul>\n                        </li>\n                    </ul>\n                </nav>\n                \n            </header>\n        <div class=\"wrapper\">\n           \n            <section class=\"slider\">\n                <div class=\"cycle-slideshow\" data-cycle-loader=\"true\">\n                    <img src=\"img/picture1.jpg\" />\n                    <img src=\"img/picture2.jpg\" />\n                    <img src=\"img/picture3.jpg\" />\n                    \n                    \n                </div>\n            </section>\n            <section class=\"main\">\n                <section class=\"categories\">\n                    <h1>Categorias</h1>\n                    \n                            <a href=\"#\" class=\"category candy\">\n                                <figure>\n                                    <img src=\"img/patriotico.jpg\" alt=\"Candy\" />\n                                </figure>\n                                <span>Patriotico</span> \n                            </a>\n                            <a href=\"#\" class=\"category candy\">\n                                <figure>\n                                    <img src=\"img/cumple.jpg\" alt=\"Candy\" />\n                                </figure>\n                             <span>Cumpleaños</span> \n                            </a>\n                            <a href=\"#\" class=\"category candy\">\n                                <figure>\n                                    <img src=\"img/carnaval.jpg\" alt=\"Candy\" />\n                                </figure>\n                             <span>Carnaval</span> \n                            </a>\n                            <a href=\"#\" class=\"category candy\">\n                                <figure>\n                                    <img src=\"img/antifaz.jpg\" alt=\"Candy\" />\n                                </figure>\n                             <span>Anteojos</span> \n                            </a>\n                            <a href=\"#\" class=\"category candy\">\n                                <figure>\n                                    <img src=\"img/glow.jpg\" alt=\"Candy\" />\n                                </figure>\n                            <span>Glow</span> \n                            </a>\n                            <a href=\"#\" class=\"category candy\">\n                                <figure>\n                                    <img src=\"img/candy.jpg\" alt=\"Candy\" />\n                                </figure>\n                             <span>Confites</span> \n                            </a>\n                            <a href=\"#\" class=\"category candy\">\n                                <figure>\n                                    <img src=\"img/bolsas.jpg\" alt=\"Candy\" />\n                                </figure>\n                             <span>Bolsas</span> \n                            </a>\n                            <a href=\"#\" class=\"category candy\">\n                                <figure>\n                                    <img src=\"img/disfraces.jpg\" alt=\"Candy\" />\n                                </figure>\n                             <span>Disfraces</span> \n                            </a>\n                           \n                    \n\n                </section>\n                <section class=\"top-sellers\">\n                    <h1>Destacados</h1>\n                    \n                    <div class=\"cycle-slideshow\" data-cycle-fx=\"carousel\" data-cycle-timeout=\"0\" data-cycle-carousel-visible=\"5\" data-cycle-next=\"#next\" data-cycle-prev=\"#prev\" data-cycle-slides=\".slide\" data-cycle-carousel-fluid=\"true\">\n                        <div class=\"slide\">\n                            <img src=\"img/candy.jpg\">\n                        </div>\n                        <div class=\"slide\"> \n                            <img src=\"img/bolsas.jpg\">\n                        </div>\n                        <div class=\"slide\">\n                            <img src=\"img/carnaval.jpg\">\n                        </div>\n                        <div class=\"slide\">\n                            <img src=\"img/glow.jpg\">\n                        </div>\n                        <div class=\"slide\">\n                            <img src=\"img/disfraces.jpg\">\n                        </div>\n                        <div class=\"slide\">\n                            <img src=\"img/antifaz.jpg\">\n                        </div>\n                       \n                    </div>\n\n                    <div class=\"center\">\n                        <a href=\"#\" id=\"prev\" class=\"actions icon-arrow-left\"> </a>\n                        <a href=\"#\" id=\"next\" class=\"actions icon-arrow-right\"> </a>\n                    </div>\n\n                   \n                </section>\n            </section>\n            <footer>\n                <div class=\"inner-footer\">\n                    <div class=\"column\">\n                        <h3>Customer Service</h3>\n                        <nav class=\"menu-footer\">\n                           <ul>\n                                <li><a href=\"#\">About us</a></li>\n                                <li><a href=\"#\">Help & FAQ</a></li>\n                                <li><a href=\"#\">Return Policy</a></li>\n                                <li><a href=\"#\">Contact Us</a></li>\n                                \n                                \n                            </ul>\n                        </nav>\n                    </div>\n\n                    <div class=\"column\">\n                        <h3>Top Categorias</h3>\n                        <nav class=\"menu-footer\">\n                           <ul>\n                                <li><a href=\"#\">Cumpleaños</a></li>\n                                <li><a href=\"#\">Carnaval</a></li>\n                                <li><a href=\"#\">Disfraces</a></li>\n                                <li><a href=\"#\">Confites</a></li>\n                                \n                                \n                            </ul>\n                        </nav>\n\n                   \n                    <div class=\"column ubicacion\">\n                        <div class=\"map\">\n                            <img src=\"img/map.jpg\" alt=\"Mapa\" />\n                        </div>\n                        <h3>Ubicación</h3>\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>\n                        <p>Tel: 2666-666 | 2666 777</p>\n                        <div class=\"redes\">\n                            <a href=\"#\" class=\"facebook icon icon-facebook\"></a>\n                            <a href=\"#\" class=\"twitter icon icon-twitter\"></a>\n                            <a href=\"#\" class=\"google icon icon-googleplus\"></a>\n                        </div>\n                    </div>\n                </div>\n                \n                <p class=\"copyright\">Copyright &copy; 2014</p>\n                \n                \n            </footer>\n\n\n        </div>\n        \n\n        <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"></script>\n        <script>window.jQuery || document.write('<script src=\"js/vendor/jquery-1.11.0.min.js\"><\\/script>')</script>\n        <script src=\"js/vendor/jquery.cycle2.min.js\"></script>\n        <script src=\"js/vendor/jquery.cycle2.carousel.min.js\"></script>\n        <script src=\"js/vendor/jquery.cycle2.loader.min.js\"></script>\n        <script src=\"js/main.js\"></script>\n\n        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n        <script>\n           /* (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\n            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;\n            e=o.createElement(i);r=o.getElementsByTagName(i)[0];\n            e.src='//www.google-analytics.com/analytics.js';\n            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));\n            ga('create','UA-XXXXX-X');ga('send','pageview');*/\n        </script>\n    </body>\n</html>\n",
-			"file": "/D/template partytime/index.html",
-			"file_size": 10893,
-			"file_write_time": 130443970475795894,
-			"settings":
-			{
-				"buffer_size": 10854,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/partytime/stylus/responsive.styl",
-			"settings":
-			{
-				"buffer_size": 1695,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/partytime/js/main.js",
-			"settings":
-			{
-				"buffer_size": 644,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -734,26 +688,63 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/partytime/templates/partytime/stylus/main.styl",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/com_k2/partytime/item.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/stylus/responsive.styl",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/mod_k2_content/partytime/default.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/index.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/templateDetails.xml",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/com_k2/partytime/category_item.php",
+		"/C/xampp/htdocs/partytime/templates/beez3/javascript/respond.js",
+		"/C/xampp/htdocs/partytime/media/jui/less/responsive.less",
+		"/C/xampp/htdocs/partytime/libraries/legacy/response/response.php",
+		"/C/xampp/htdocs/partytime/libraries/joomla/http/response.php",
+		"/C/xampp/htdocs/partytime/administrator/components/com_joomlaupdate/restore.php",
+		"/C/xampp/htdocs/partytime/README.txt",
+		"/C/xampp/htdocs/partytime/components/com_k2/templates/default/category_item_links.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/com_k2/default/category_item.php",
+		"/C/xampp/htdocs/partytime/components/com_k2/templates/default/category_item.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/com_k2/default/category_item_links.php",
+		"/C/xampp/htdocs/partytime/components/com_contact/metadata.xml",
+		"/C/xampp/htdocs/partytime/templates/partytime/stylus/icons.styl",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/com_k2/partytime/category.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/com_k2/partytime/category_item_links.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/mod_k2_content/default/default.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/mod_articles_category/default.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/mod_k2_content/default.php",
+		"/C/xampp/htdocs/partytime/libraries/cms/html/icons.php",
+		"/C/xampp/htdocs/partytime/layouts/joomla/content/icons.php",
+		"/C/xampp/htdocs/partytime/components/com_contact/helpers/icon.php",
+		"/C/xampp/htdocs/partytime/administrator/manifests/libraries/idna_convert.xml",
+		"/C/xampp/htdocs/partytime/index.php",
+		"/C/xampp/htdocs/partytime/libraries/cms/pagination/pagination.php",
+		"/C/xampp/htdocs/partytime/libraries/cms/error/page.php",
+		"/C/xampp/htdocs/partytime/partytime.sublime-project",
+		"/C/xampp/htdocs/partytime/administrator/modules/mod_stats_admin/mod_stats_admin.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/js/main.js",
+		"/D/template partytime/index.html",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/_item.php",
+		"/C/xampp/htdocs/partytime/modules/mod_articles_category/helper.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/com_content/categories/default_items.php",
+		"/C/xampp/htdocs/partytime/github.php",
+		"/D/Documents/dumps/partytime.sql",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/default.php",
+		"/C/xampp/htdocs/partytime/templates/partytime/html/modules.php",
 		"/C/xampp/htdocs/3monkiescr/templates/3monkiescr/js/main.js",
 		"/C/xampp/htdocs/partytime/modules/mod_menu/tmpl/default_separator.php",
 		"/C/xampp/htdocs/partytime/modules/mod_menu/tmpl/default_component.php",
 		"/C/xampp/htdocs/partytime/modules/mod_menu/tmpl/default_heading.php",
 		"/C/xampp/htdocs/partytime/modules/mod_finder/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/_item.php",
 		"/C/xampp/htdocs/partytime/templates/partytime/html/com_content/categories/default.php",
-		"/C/xampp/htdocs/partytime/templates/partytime/html/com_content/categories/default_items.php",
 		"/C/xampp/htdocs/partytime/components/com_content/views/categories/tmpl/default.php",
 		"/C/xampp/htdocs/partytime/components/com_content/views/categories/tmpl/default_items.php",
-		"/C/xampp/htdocs/partytime/templates/partytime/html/modules.php",
 		"/C/xampp/htdocs/partytime/templates/partytime/html/editor_content.css",
 		"/C/xampp/htdocs/partytime/templates/partytime/html/mod_finder/tmpl/default.php",
 		"/C/xampp/htdocs/partytime/templates/partytime/html/mod_search/default.php",
 		"/C/xampp/htdocs/partytime/modules/mod_menu/tmpl/default.php",
-		"/C/xampp/htdocs/partytime/templates/partytime/js/main.js",
 		"/C/xampp/htdocs/partytime/templates/partytime/css/main.css",
 		"/C/xampp/htdocs/partytime/components/com_mailto/mailto.php",
 		"/C/xampp/htdocs/partytime/modules/mod_articles_archive/mod_articles_archive.php",
-		"/C/xampp/htdocs/partytime/components/com_contact/metadata.xml",
 		"/C/xampp/htdocs/partytime/stylus/main.styl",
 		"/C/xampp/htdocs/guanacasteviajes/templates/guanacasteviajes/css/animate.css",
 		"/C/xampp/htdocs/guanacasteviajes/templates/guanacasteviajes/index.php",
@@ -824,48 +815,11 @@
 		"/C/xampp/htdocs/avotz/node_modules/gulp/node_modules/gulp-util/lib/isNull.js",
 		"/C/xampp/htdocs/avotz/servicios.html",
 		"/C/xampp/htdocs/avotz/nosotros.html",
-		"/C/xampp/htdocs/avotz/trabajos.html",
-		"/C/xampp/htdocs/avotz/servicios/multimedia.html",
-		"/C/xampp/htdocs/avotz/servicios/redes-sociales.html",
-		"/C/xampp/htdocs/avotz/servicios/seo.html",
-		"/C/xampp/htdocs/avotz/servicios/sitios-web.html",
-		"/C/xampp/htdocs/avotz/avotz.sublime-project",
-		"/C/xampp/htdocs/avotz/avotz.sublime-workspace",
-		"/C/xampp/htdocs/avotz/js/main.js",
-		"/C/xampp/htdocs/avotz/css/main.css",
-		"/C/xampp/htdocs/avotz/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
-		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/User/Default (Windows).sublime-keymap",
-		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/avotz/stylus/animate.styl",
-		"/C/xampp/htdocs/avotz/package.json",
-		"/C/xampp/htdocs/avotz/js/formvalidation.js",
-		"/C/xampp/htdocs/avotz/Gulpfile.js",
-		"/D/get_posts.php",
-		"/C/xampp/htdocs/avotz/stylus/responsive.styl",
-		"/C/xampp/htdocs/avotz/contacto.html",
-		"/C/xampp/htdocs/avotz/data/works.json",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/Default/Default (Windows).sublime-keymap",
-		"/D/Documents/dumps/planea.sql",
-		"/D/Documents/UNED/TFG/22021825 libney UNED.txt",
-		"/C/xampp/htdocs/avotz/.htaccess",
-		"/C/xampp/htdocs/avotz/404.html",
-		"/C/xampp/htdocs/avotz/.gitignore",
-		"/C/xampp/htdocs/testgit/github.php",
-		"/C/xampp/htdocs/testgit/index.html",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Default (Windows).sublime-keymap",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/Default/Preferences.sublime-settings",
-		"/C/xampp/htdocs/fashionfactory/.gitignore",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/index.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/partials/_form.blade.php",
-		"/C/Users/Alonso/Desktop/sublim/index.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/partials/_search.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/categories/partials/_search.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/dashboard/index.blade.php"
+		"/C/xampp/htdocs/avotz/trabajos.html"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -879,6 +833,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"menu",
+			"k2 plugins",
+			"btn",
+			"pagination",
+			"catItemImageBlock",
+			"menu",
+			"slide",
+			"footer",
+			"category",
+			"menu",
 			"btn",
 			"main",
 			"menu",
@@ -996,17 +960,7 @@
 			"{{",
 			"Contact",
 			"jpg",
-			"$message",
-			"hentry",
-			"form-allowed-tags",
-			".border-",
-			"#logo",
-			"shape",
-			"Shape",
-			"shape",
-			"Niños",
-			"niños",
-			"123"
+			"$message"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1052,451 +1006,8 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "templates/partytime/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5120,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1595,
-								1595
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 480.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/partytime/stylus/main.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6151,
-								6151
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 7416.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/template partytime/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10854,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8902,
-								8902
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3600.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "templates/partytime/stylus/responsive.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1695,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								645,
-								688
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 720.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/partytime/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 644,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								426,
-								426
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1551,12 +1062,24 @@
 		"selected_items":
 		[
 			[
-				"main.js",
-				"templates\\partytime\\js\\main.js"
+				"respo",
+				"templates\\partytime\\stylus\\responsive.styl"
 			],
 			[
 				"main",
 				"templates\\partytime\\stylus\\main.styl"
+			],
+			[
+				"icons",
+				"templates\\partytime\\stylus\\icons.styl"
+			],
+			[
+				"main.",
+				"templates\\partytime\\stylus\\main.styl"
+			],
+			[
+				"main.js",
+				"templates\\partytime\\js\\main.js"
 			],
 			[
 				"main.sty",
@@ -1565,10 +1088,6 @@
 			[
 				"cotiza",
 				"templates\\guanacasteviajes\\js\\cotizador.js"
-			],
-			[
-				"respo",
-				"templates\\guanacasteviajes\\stylus\\responsive.styl"
 			],
 			[
 				"guanacasinde",
@@ -1820,7 +1339,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 170.0,
+	"side_bar_width": 276.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

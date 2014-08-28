@@ -29,6 +29,7 @@
 		<position>debug</position>
 		<position>cloud-info</position>
 		<position>search</position>
+		<position>cart</position>
 		<position>slider</position>
 		<position>top-sellers</position>
 		<position>menu-footer</position>
